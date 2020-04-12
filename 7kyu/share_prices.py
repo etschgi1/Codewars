@@ -6,7 +6,7 @@ def share_price(invested, changes):
     for change in changes:
         invested *= 1+(change/100)
         round(invested, 2)
-    breturn invested
+    return invested
 
 
 print(share_price(100, [50, -50]))
